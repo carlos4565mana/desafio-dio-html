@@ -5,12 +5,15 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
   <title>Menu Hamburguer</title>
 </head>
 <body>
                 <!--header-->
   <header>
     <div class="navigation">
+      <h1 class="logo">Light<span>Code.</span></h1>
+
       <input type="checkbox" class="navigation__checkbox" id="toggle">
       <label for="toggle" class="navigation__button">
         <span class="navigation__icon">&nbsp;</span>
@@ -20,39 +23,42 @@
 
       <nav class="navigation__nav">
         <ul class="navigation__list">
-          <li><a href="" class="navigation__link">Home</a></li>
-          <li><a href="" class="navigation__link">Sobre</a></li>
-          <li><a href="" class="navigation__link">Habilidades</a></li>
-          <li><a href="" class="navigation__link">Projetos</a></li>
-          <li><a href="" class="navigation__link">Contato</a></li>
+          <li><a href="#" class="navigation__link">Home</a></li>
+          <li><a href="#about" class="navigation__link">Sobre</a></li>
+          <li><a href="#skills" class="navigation__link">Habilidades</a></li>
+          <li><a href="#project" class="navigation__link">Projetos</a></li>
+          <li><a href="#hire" class="navigation__link">Contato</a></li>
         </ul>
 
       </nav>
     </div>
 
     <div class="header-title">
-      <h2>Eu sou<span>Estudante de Tecnologia</span></h2>
-      <p>lflflflglf</p>
+      <h2>Olá eu sou um<span>Estudante de Tecnologia</span></h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui oficia deserunt mollit anim id est laborum</p>
       <button>Sobre</button>
       <div class="social-media">
-        <a class="fab fa-facebook-f" href="#"></a>
+        <a class="fab fa-facebook-f" href="https://www.linkedin.com/in/carlos-santos-3390a1224/"></a>
         <a class="fab fa-twitter" href="#"></a>
         <a class="fab fa-youtube" href="#"></a>
-        <a class="fab fa-github" href="#"></a>
+        <a class="fab fa-github" href="https://github.com/carlos4565mana/desafio-dio-html"></a>
+        <a class="fab fa-linkedin" href="www.linkedin.com/in/carlos-santos"></a>
       </div>
     </div>
 
+    </header>
+
                <!--sobre-->
 
-    <section class="about">
+    <section class="about" id="about">
 
       <div class="about-wrapper">
-        <img src="images/teste.jpg" alt="Casal" class="about-pic">
+        <img src="images/prog1.jpg" alt="Imagem detecologia" class="about-pic">
 
         <div class="about-detail">
           <span class="top-title">INTRODUÇÃO</span>
           <h2>Sobre </h2>
-          <p></p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui oficia deserunt mollit anim id est laborum</p>
           <p></p>
 
           <button>Download CV</button>
@@ -63,7 +69,7 @@
 
                 <!--habilidades-->
 
-    <section class="skills">
+    <section class="skills" id="skills">
 
       <span class="top-title"></span>
       <h2>HABILIDADES</h2>
@@ -71,25 +77,25 @@
 
         <div class="skill-detail">
           <img src="images/react.png" alt="React logo">
-          <h2></h2>
+          <h2>REACT</h2>
           <p></p>
         </div>
 
         <div class="skill-detail">
           <img src="images/java.jpg" alt="Java logo">
-          <h2></h2>
+          <h2>JAVA</h2>
           <p></p>
         </div>
 
         <div class="skill-detail">
           <img src="images/spring.jpg" alt="Spring boot logo">
-          <h2></h2>
+          <h2>SPRIG BOOT</h2>
           <p></p>
         </div>
 
         <div class="skill-detail">
           <img src="images/js.png" alt="Js logo">
-          <h2></h2>
+          <h2>HTML/CSS/JAVASCRIPT</h2>
           <p></p>
         </div>
       </div>
@@ -97,30 +103,27 @@
 
                 <!--projetos-->
 
-    <section class="project">
+    <section class="project" id="project">
       
-      <span class="top-title">ULTIMOS TRABALHOS</span>
+      <span class="top-title">ULTIMOS PROJETOS</span>
 
       <div class="project-wrapper">
+
         <div class="project-detail">
-          <img src="" alt="" class="project-image">
+          <img src="images/dsmovie.png" alt="" class="project-image">
           <button class="project-button">Mais Informações</button>
         </div>
 
         <div class="project-detail">
-          <img src="" alt="" class="project-image">
+          <img src="images/jogo-memoria.png" alt="" class="project-image">
           <button class="project-button">Mais Informações</button>
         </div>
 
         <div class="project-detail">
-          <img src="" alt="" class="project-image">
+          <img src="images/dsmovie.png" alt="" class="project-image">
           <button class="project-button">Mais Informações</button>
         </div>
 
-        <div class="project-detail">
-          <img src="" alt="" class="project-image">
-          <button class="project-button">Mais Informações</button>
-        </div>
       </div>
 
       <button class="more">Veja Mais </button>
@@ -129,9 +132,10 @@
 
                 <!--contatos-->
 
-    <section class="hire">
+    <section class="hire" id="hire">
 
       <span class="top-title">Contata-me</span>
+      <h2>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...</h2>
 
       <div class="hire-wrapper">
 
@@ -144,9 +148,6 @@
       </div>
 
     </section>
-
-
-  </header>
   
 </body>
 </html>
